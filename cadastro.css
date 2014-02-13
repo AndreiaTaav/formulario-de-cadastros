@@ -1,0 +1,84 @@
+body{
+    font-family: inherit, sans-serif;
+    font-size: 14px;
+    color: #08088A;
+    background-color: #58D3F7;
+}
+
+**{
+    font-family: inherit;
+    
+}
+
+form{
+    width: 1350;
+}
+
+form header{
+    padding: 0 20px 10px 5px;
+    border-bottom: 4px double #08298A;
+    margin-bottom: 15px;
+}
+
+form header h2{
+    float: left;
+    margin: 0;
+    font-family: inherit;
+}
+
+form header .notificacao_required{
+    float: right;
+    font-weight: 800;
+    line-height: 3;
+}
+
+form header:after{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+
+form label
+,section{
+    line-height: 3;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px
+}
+
+select
+,input{
+    box-sizing: content-box;
+    outline:1px double #08298A;
+    
+    min-height: 10px;
+    
+    padding: 4px 7px;
+    margin-top: 0;
+    margin-bottom: 5;
+}
+
+input:required + label
+,select:required + label{
+    color: #01DFD7;
+}
+
+input:focus
+,select:focus{
+    border: 4px double #00FFFF;;
+}
+
+input:required:valid
+,select:required:valid{
+    background-color:#A9F5F2;
+}
+
+input:focus:invalid
+,select:focus:invalid{
+    background-color:#A9F5F2;
+}
+
+
+
+
